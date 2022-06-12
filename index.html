@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div tex-center">
+    <h2>Sound Controlled animals</h2>
+    <p>NOTE: These animals can be controlled by meow, woff-woff by these voice they can react.</p>
+    </div>
+    <div class="main_div"></div>
+      <center>
+      <button class="btn btn-warning" onclick="startClassification()">START!</button>
+      <h3 id="result_label">I can hear = </h3>
+      <h4 id="result_confidence">Acuraccy =</h4>
+
+      <br>
+
+      <img src="2a0a1c17c5415e7f5dfed24a2a9982bb.jpg" id="animal 1" height="300" width="300">
+      <img src="Tetsuya_-2_with_Jersey_%28Ep.10_SC%29.webp" id="animal 2" height="300" width="300">
+      
+      </center>
+    </div>
+    <div class="copy_right_footer">
+      devloped by yajat 
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
